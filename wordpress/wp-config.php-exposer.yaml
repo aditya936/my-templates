@@ -3,7 +3,8 @@ info:
   name: "WordPress accessible wp-config"
   author: enterlectury
   severity: high
-  tags: wordpress-misc,wordpress,backups,config
+  description: The remote WordPress installation has the `wp-config` file remotely accessible and its content available for reading.
+  tags: wordpress-misc,wordpress,backups,config,misconfig
 
 http:
   - method: GET
